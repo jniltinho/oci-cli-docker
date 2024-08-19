@@ -1,5 +1,5 @@
 FROM debian:stable-slim
-## docker build -f Debian-Dockerfile -t oci-cli:latest .
+## docker build -f Debian.Dockerfile -t oci-cli:latest .
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV SHELL /bin/bash
